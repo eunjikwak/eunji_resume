@@ -30,14 +30,12 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
-      link: "https://naver.com",
+      link: 'https://naver.com',
       icon: faBlogger,
-    }
-
+    },
   ],
   notice: {
-    title:
-      "더 자세한 포트폴리오는 notion을 확인해주세요.",
+    title: '더 자세한 포트폴리오는 notion을 확인해주세요.',
     icon: faBell,
   },
 };

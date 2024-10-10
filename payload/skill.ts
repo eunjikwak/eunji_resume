@@ -23,7 +23,6 @@ const programmingLanguages: ISkill.Skill = {
       title: 'Java',
       level: 2,
     },
-
   ],
 };
 
@@ -46,39 +45,32 @@ const fameworks: ISkill.Skill = {
       title: 'Firebase',
       level: 3,
     },
-
   ],
 };
 const tools: ISkill.Skill = {
   category: 'Tools & IDEs',
   items: [
     {
-      title: 'VS Code'
+      title: 'VS Code',
     },
     {
-      title: 'Git'
+      title: 'Git',
     },
     {
-      title: 'Github'
-    }, {
-      title: 'AWS'
+      title: 'Github',
     },
     {
-      title: 'Vercel'
-    }
-  ]
-}
-
-
+      title: 'AWS',
+    },
+    {
+      title: 'Vercel',
+    },
+  ],
+};
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    fameworks,
-    tools,
-
-  ],
+  skills: [programmingLanguages, fameworks, tools],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 

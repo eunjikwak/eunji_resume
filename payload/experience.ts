@@ -15,7 +15,7 @@ const experience: IExperience.Payload = {
         'Next.js와 Firebase를 사용한 프로젝트: Next.js를 활용하여 웹사이트를 개발하고 Firebase와 데이터베이스를 연결하는 작업을 했습니다.',
         '배포 및 서버 관리: AWS와 Vercel을 사용하여 프로젝트를 배포하고, Lambda 함수를 사용한 서버리스 기능 구현을 했습니다.',
         'API 통합: 카카오 및 네이버 로그인 API와 구글 API를 통해 메일 기능을 구현하는 등, 다양한 서드파티 API를 연동했습니다.',
-        'AI 챗봇 개발: OpenAI API를 사용하여 자동화된 AI 채팅 시스템을 구축했습니다.'
+        'AI 챗봇 개발: OpenAI API를 사용하여 자동화된 AI 채팅 시스템을 구축했습니다.',
       ],
       skillKeywords: [
         'JavaScript',
@@ -28,7 +28,7 @@ const experience: IExperience.Payload = {
         'Lambda',
         'Vercel',
         'TypeScript',
-        'ZEPscript'
+        'ZEPscript',
       ],
     },
   ],
