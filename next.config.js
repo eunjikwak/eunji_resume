@@ -14,7 +14,7 @@ module.exports = withImages({
           console.log(`> Apply \'${pathname}\' to assetPrefix(subPath)`);
           return pathname;
         }
-        return '';
+        return '.';
       } catch {
         console.log('> Can not parse homepage URL not apply assetPrefix(subPath)');
         return '';
@@ -24,8 +24,8 @@ module.exports = withImages({
   })(),
 });
 // withCSS({
-// webpack: config => {
-//   config.resolve.alias['@'] = __dirname;
-//   return config;
-// }
-// }),
+//   webpack: config => {
+//     config.resolve.alias['@'] = __dirname;
+//     return config;
+//   }
+// })
